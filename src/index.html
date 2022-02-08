@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Chris Scott, Programmer</title>
+    <meta
+      name="description"
+      content="Programmer and customer service expert in Baltimore, Maryland"
+    />
+    <meta name="author" content="Chris Scott" />
+
+    <meta
+      property="og:title"
+      content="Chris Scott's resume and portfolio site "
+    />
+    <meta name="robots" 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ccsportfolio.com/" />
+    <meta
+      property="og:description"
+      content="Programmer and customer service expert in Baltimore, Maryland"
+    />
+
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200..700&display=swap">
+    <script src="./scripts/counter.js" async></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <div class="resume-page">
+      <h1 class="name-box">CHRIS SCOTT</h1>
+      <div class="big-blue-line"></div>
+      <div class="reach-me">chris at ccsdev io</div>
+      <div class="about-me-and-education-container">
+        <div class="about-me-container">
+          <div class="am-ed-heading">
+            <h2 class="am-ed-section-heading"><strong>ABOUT ME</strong></h2>
+          </div>
+          <div class="about-me-text">
+            <p>Projects built using AWS and CI/CD:</p>
+            <ul>
+              <li>Eventbridge, Config, SNS, Lambda, DynamoDB, API Gateway, S3, CloudWatch</li>
+              <li>CI/CD with GitHub actions</li>
+              <li>Automated testing with Cypress</li>
+              <li>IaC with Terraform</li>
+            </ul>
+          </div>
+          <div class="about-me-text">
+            <p>Customer service expert:</p>
+            <ul>
+              <li>Worked at Michelin-starred and James-Beard-award-winning restaurants</li>
+              <li>13 years' experience in fine dining</li>
+            </ul>
+          </div>
+        </div>
+        <div class="am-ed-separator"></div>
+        <div class="education-container">
+          <div class="am-ed-heading">
+            <h2 class="am-ed-section-heading">EDUCATION</h2>
+          </div>
+          <div class="education-text">
+            <p class="edu-p">Bachelor's Degree,</p>
+            <p class="edu-p">Computer Science,</p>
+            <p class="edu-p">Southwestern University</p>
+          </div>
+          <div class="education-text">
+            <p class="edu-p">Juris Doctor,</p>
+            <p class="edu-p">Georgetown University</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="section-heading">PORTFOLIO</h2>
+      <div class="project-name">SaferAWS</div>
+      <div class="project-description">
+        <ul>
+          <li>Built an AWS stack to help prevent unexpected bills: destroys unauthorized EC2s and Lambdas and performs automatic mitigation, and disconnects public access when spikes in traffic are detected</li>
+          <ul>
+            <li>EventBridge and Config to monitor for unauthorized activity</li>
+            <li>Lambda and DynamoDB to coordinate mitigation steps</li>
+            <li>SNS and PagerDuty integration to alert users</li>
+            <li>CloudWatch alarms and Lambda to disable public access when spikes in traffic are detected</li>
+          </ul>
+        </ul>
+      </div>  
+      <div class="project-name">Forrest Brazeal's Cloud Challenge</div>
+      <div class="project-description">  
+        <ul>
+          <li>Built this résumé webpage and view counter using AWS, IaC, and CI/CD:</li>
+          <ul>
+            <li>Edge content delivery and HTTPS using Cloudfront</li>
+            <li>Content served from S3 bucket</li>
+            <li>API Gateway, Lambda, and DynamoDB to implement a visitor count</li>
+            <li>CI/CD with GitHub Actions</li>
+            <li>IaC with Terraform</li>
+            <li>Automated testing with Cypress</li>
+          </ul>
+        </ul>
+      </div>  
+      <div class="page-footer">
+        <div class="page-footer-separator"></div>
+        
+        <div id="counter">Querying database...</div>
+      </div>
+    </div>
+
+    <div class="page-spacer"></div>
+    
+    <div class="resume-page">
+      <h2 class="section-heading">EXPERIENCE</h2>
+      <div class="employer-entry">
+        <div class="employer">Michael Scott, MD, and Ellen Marciniak, MD</div>
+        <div class="dates-employed">7/20 &#8211 present</div>
+        <div class="position">Covid Nanny</div>
+        <div class="job-location">Baltimore, MD</div>
+        <ul class="job-description">
+          <li>My brother and his wife are both ICU doctors, and needed help
+            taking care of their daughter Lily during the pandemic</li>
+        </ul>
+      </div>
+      <div class="employer-entry">
+        <div class="employer">Benton Landscaping</div>
+        <div class="dates-employed">11/19 &#8211 5/20</div>
+        <div class="position">Landscaper</div>
+        <div class="job-location">Austin, TX</div>
+        <ul class="job-description">
+          <li>Helped install and maintain residential and commercial landscaping
+            projects</li>
+        </ul>
+      </div>
+      <div class="employer-entry">
+        <div class="employer">Biderman's Deli</div>
+        <div class="dates-employed">11/17 &#8211 11/19</div>
+        <div class="position">Front of House Manager</div>
+        <div class="job-location">Austin, TX</div>
+        <ul class="job-description">
+          <li>0% turnover for well over a year</li>
+          <li>Created new systems to fix longstanding service issues</li>
+        </ul>
+      </div>
+      <div class="employer-entry">
+        <div class="employer">Christopher Scott, Attorney at Law</div>
+        <div class="dates-employed">01/17 &#8211 11/17</div>
+        <div class="position">Family Law Attorney</div>
+        <div class="job-location">Austin, TX</div>
+        <ul class="job-description">
+          <li>Won a child custody battle that ensured a six-year-old boy would remain with the only family he’d ever known</li>
+        </ul>
+      </div>
+      <div class="employer-entry">
+        <div class="employer">Coldwell Bowes</div>
+        <div class="dates-employed">09/16 &#8211 01/17</div>
+        <div class="position">Associate</div>
+        <div class="job-location">Austin, TX</div>
+        <ul class="job-description">
+          <li>Researched and helped craft arguments for ongoing cases</li>
+        </ul>
+      </div>
+      <h2 class="section-heading">OTHER RESTAURANT EXPERIENCE</h2>
+      <div class="restaurant-experience-container">
+        <div class="restaurant-experience-positions">Captain, Trainer, Bartender, Server</div>
+        <div class="restaurant-experience-job-locations">NYC, NY; Austin, TX</div>
+        <ul class="restaurant-experience-description">
+          <li>Helped open restaurants, wrote training manuals, trained staff</li>
+          <li>Go-to server for VIPs and reviewers; handled meals that became
+            review articles in New York Magazine, Texas Monthly, and the
+            Austin-American Statesman</li>
+          <li>Former employers include Dovetail NYC (Michelin star), Gotham Bar and Grill (Michelin star, James Beard award for Best Restaurant in America), La Condesa, Zoot, and Jeffrey’s</li>
+          </ul>
+        </ul>  
+      </div>   
+  </body>
+  <footer>
+    <div class="page-footer">
+      <div class="page-footer-separator"></div>
+      <div class="page-footer-text">chris at ccsdev io</div>
+    </div>
+  </div>
+  </footer>
+</html>
