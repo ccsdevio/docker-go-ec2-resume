@@ -63,5 +63,5 @@ func main() {
 
 	http.HandleFunc("/counter", incrementHandler(&db))
 
-	go log.Fatal(http.ListenAndServe(":80", nil))
+	go log.Fatal(http.ListenAndServe(":8080", nil))
 }
